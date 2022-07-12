@@ -1,11 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src",
     "\\src\\app",
+    "\\src\\app\\addbook",
+    "\\src\\app\\bookhistory",
     "\\src\\app\\booklist",
-    "\\src\\app\\Models"
+    "\\src\\app\\Models",
+    "\\src\\app\\Services"
   ],
-  "SelectedNode": "\\src\\app\\Models\\BookHistory.ts",
   "PreviewInSolutionExplorer": false
 }
