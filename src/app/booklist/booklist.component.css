@@ -1,0 +1,18 @@
+table {
+  width: 50%;
+  font-family: 'Century Gothic';
+}
+.mat-table {
+  font-family: 'Century Gothic';
+}
+button {
+  font-family: 'Century Gothic';
+  width: fit-content;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  font-family: 'Century Gothic';
+}

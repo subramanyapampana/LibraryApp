@@ -1,0 +1,58 @@
+
+<table class="center">
+  <tr>
+    <td>
+      <button mat-raised-button color="primary" (click)="BackToBookList()">Back To BookList</button>
+    </td>
+  </tr>
+</table>
+
+  <table class="center tblBorder">
+    <tr>
+      <td>
+        <h1 class="center">Add a Book </h1>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <mat-form-field class="example-form-field" appearance="fill">
+          <mat-label>Book Cover</mat-label>
+          <input matInput type="text" [(ngModel)]="bookCover">
+          <button *ngIf="bookCover" matSuffix mat-icon-button aria-label="Clear" (click)="bookCover=''">
+            <mat-icon>close</mat-icon>
+          </button>
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <mat-form-field class="example-form-field" appearance="fill">
+          <mat-label>Title</mat-label>
+          <input matInput type="text" [(ngModel)]="title">
+          <button *ngIf="title" matSuffix mat-icon-button aria-label="Clear" (click)="title=''">
+            <mat-icon>close</mat-icon>
+          </button>
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <mat-form-field class="example-form-field" appearance="fill">
+          <mat-label>Author</mat-label>
+          <input matInput type="text" [(ngModel)]="author">
+          <button *ngIf="author" matSuffix mat-icon-button aria-label="Clear" (click)="author=''">
+            <mat-icon>close</mat-icon>
+          </button>
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button mat-raised-button color="primary" (click)="AddBook()">Add book</button>
+      </td>
+    </tr>
+  </table>
+
+
+
+
