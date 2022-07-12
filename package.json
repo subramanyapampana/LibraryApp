@@ -20,6 +20,11 @@
     "@angular/platform-browser": "~13.3.0",
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.3.0",
+    "@angular/material/table": "*",
+    "@angular/material/button": "*",
+    "@angular/material/form-field": "*",
+    "@angular/material/input": "*",
+    "@angular/material/icon": "*",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
